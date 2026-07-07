@@ -24,6 +24,25 @@ it pass. Rules that skip this tend to be rules nobody needed.
 
 <!-- entries below, newest first -->
 
+## 2026-07-07 — Consult founding evidence: one stale fact forks the whole architecture
+**Situation:** Baseline for the advisor-pattern skill — a Sonnet asked to wire
+Fable 5 as advisor to a Sonnet 5 executor via the API (no web search allowed).
+**Observed:** It knew of `advisor_20260301` but from a stale snapshot: it declared
+claude-fable-5 absent from the pairing table (false — current docs list Fable as a
+valid advisor for every cheaper executor) and, on that single wrong premise,
+recommended BUILDING A HAND-ROLLED client-side advisor tool instead — with a
+question+context input schema, which is exactly what the real tool forbids (input
+is empty; the server forwards the full transcript). Also missed: Fable advisors
+return encrypted advisor_redacted_result; max_tokens belongs on the tool
+definition; the conversation-cap rule is remove-tool AND strip-blocks.
+**Lesson:** For post-cutoff API features, a skill must carry the current facts AND
+explicitly name the stale beliefs it displaces (the description now fires on
+"someone claims Fable cannot be an advisor"). Confident-but-stale is more dangerous
+than ignorant — ignorance asks, staleness architects.
+**Target:** consult-fable (new skill) + ritual (fifth row: API pipelines,
+sparse-judgment long loops)
+**Status:** incorporated (initial release of consult-fable)
+
 ## 2026-07-07 — Ritual router founding evidence: the signpost's missing arm
 **Situation:** Testing the /ritual front-door skill — a haiku session routing four
 task scenarios through the table.

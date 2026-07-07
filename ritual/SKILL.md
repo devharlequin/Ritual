@@ -13,6 +13,7 @@ One question routes everything: **who is doing the work, and which direction is 
 |---|---|
 | The task deserves a stronger model than the one in the room | **summon-fable** — craft the one-shot first (Interview → Reconnaissance → Assembly) |
 | The task is separable AND a cheaper capable tier exists below you | **convene-claudlings** — waves, canary, doer/fixer/judge. Convening is tier-relative: Fable convenes anyone, sonnet may convene haikus. Haiku has no one to convene — it channels and grinds. |
+| Long-horizon API pipeline: mostly mechanical turns, judgment needed only at sparse forks | **consult-fable** — executor holds the wheel; Fable rides shotgun via the native advisor tool. (API pipelines only — the advisor tool is not available inside Claude Code sessions.) |
 | Anyone, doing any nontrivial work — including high-VOLUME mechanical work (simple ≠ trivial; a 30-file batch still gets the closing ritual on a sample) | **channel-fable** — always in effect; it is the floor, not one of the options |
 | Trivial task: minutes of work, a file or two, easily reversed | **No rite. Just do the work.** Ceremony that taxes small tasks is how big-task discipline dies. |
 
