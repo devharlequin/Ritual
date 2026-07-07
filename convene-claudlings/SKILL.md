@@ -27,7 +27,7 @@ Routing test: *can you write the success criteria for a slice without solving th
 
 Every claudling prompt carries: mission (outcome + why), exact paths (recon'd by a haiku scout, never "search for"), locked/free, checkable success criteria, non-goals, and a required report format — point them at **channel-fable** and demand its closing ritual (ROOT CAUSE / FIX LOCATION / INDEPENDENT CHECKS / UNRESOLVED ANOMALIES), because structured claims are what make your audit cheap.
 
-Tier routing: **haiku** = recon, mechanical transforms, formatting. **sonnet** = implementation, test-writing, adversarial review. **you** = decomposition, adjudication, load-bearing code, final synthesis. House rules: lean waves (~4–6 agents), wrap fan-outs against transient API errors, builds and tests run on the main thread.
+Tier routing: **haiku** = recon, mechanical transforms, formatting. **sonnet** = implementation, test-writing, adversarial review. **you** = decomposition, adjudication, load-bearing code, final synthesis. Convening is tier-relative — the rite binds whenever a capable tier exists *below you*: Fable convenes anyone, a sonnet main loop may convene haikus, and haiku has no one to convene (it channels and grinds). House rules: lean waves (~4–6 agents), wrap fan-outs against transient API errors, builds and tests run on the main thread.
 
 ## Phase 2 — Checkpoints live in control flow, not in intentions
 

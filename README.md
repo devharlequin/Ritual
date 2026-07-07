@@ -23,6 +23,11 @@ that remain. Three skills, three directions of the same doctrine:
   in control flow (waves), patterns are canaried before volume, and doer, fixer,
   and judge are never the same body. *Fable presides; claudlings labor; nothing
   merges unverified.*
+- **[ritual](ritual/SKILL.md)** — the front door: a signpost (deliberately not a
+  grill) that routes a task to the right rite with one question at most — *who is
+  doing the work, and which direction is the talking?* Its fourth answer matters
+  most: trivial work gets **no rite at all**, because ceremony that taxes small
+  tasks is how big-task discipline dies.
 
 Both were developed test-driven: baseline runs on Sonnet and Haiku exposed real failure
 modes (silent mandate escalation, circular verification, self-adjudicated contradictions),
@@ -33,7 +38,7 @@ and each rule in the skills traces to a failure observed in testing.
 Copy both folders into your Claude Code skills directory:
 
 ```
-cp -r summon-fable channel-fable convene-claudlings ~/.claude/skills/
+cp -r summon-fable channel-fable convene-claudlings ritual ~/.claude/skills/
 ```
 
 They auto-surface — any session preparing a prompt for a stronger model (or doing

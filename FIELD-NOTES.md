@@ -24,6 +24,25 @@ it pass. Rules that skip this tend to be rules nobody needed.
 
 <!-- entries below, newest first -->
 
+## 2026-07-07 — Ritual router founding evidence: the signpost's missing arm
+**Situation:** Testing the /ritual front-door skill — a haiku session routing four
+task scenarios through the table.
+**Observed:** (1) It routed a high-volume test batch to convene-claudlings *from a
+haiku session* — the table bound convene to "the expensive model" and had no row at
+all for volume work in a cheap session; the signpost had a missing arm. (2) It
+silently escalated a flaky-bug investigation to summon-fable with "no question
+needed" — spending the user's money without asking. (3) It invented a bespoke
+multi-clause question instead of the single budget question. (4) After the first
+refactor, "nothing subtle" was misread as trivial — mechanically simple got conflated
+with small.
+**Lesson:** Convening is TIER-RELATIVE (sonnet may convene haikus; haiku channels and
+grinds) — folded back into convene-claudlings Phase 1. Escalation is never silent;
+the budget question belongs to the user. Investigations channel first — evidence
+before summoning. Define "trivial" concretely (minutes, a file or two, reversible)
+or volume work slips under it.
+**Target:** ritual (new skill) + convene-claudlings Phase 1 (tier-relative clause)
+**Status:** incorporated (initial release of ritual)
+
 ## 2026-07-07 — Convene founding evidence: prose reservations can't fire
 **Situation:** Baseline test for the overseer skill — an expensive-tier model (Opus)
 asked to orchestrate a mixed refactor (separable string extraction + entangled
